@@ -1,0 +1,36 @@
+.__imgMarker_wrapper {
+	position: relative;
+	border: 4px solid rgba(34,36,38,.15);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.__imgMarker_wrapper > .__imgMarker_edit_panel {
+	position: absolute;
+	top: -55px;
+	right: -4px;
+	height: 30px;
+    background: #FFF;
+    font-weight: 400;
+    border: 4px solid rgba(34,36,38,.15);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.__imgMarker_wrapper > .__imgMarker_edit_panel > .__imgMarker_button {
+	padding: 5px 25px;
+	height: 20px;
+	margin: 0px;
+	float: left;
+	background: #f8f8f8;
+	cursor: pointer;
+	text-align: center;
+    line-height: 19px;
+    font-size: 24px;
+	color: #a0a0a0;
+}
+.__imgMarker_wrapper > .__imgMarker_edit_panel > .__imgMarker_button:hover {
+	background: #f3f3f3;
+}
+.__imgMarker_wrapper > .__imgMarker_edit_panel > .__imgMarker_button:active,
+.__imgMarker_wrapper > .__imgMarker_edit_panel > .__imgMarker_button.active {
+	background: #dedede;
+}
